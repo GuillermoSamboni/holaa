@@ -1,0 +1,19 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": {
+        "perfil": "Administrador",
+        "centro_formacion": "Centro de Teleinformática y Producción Industrial",
+        "identificacion": "1085950246",
+        "primer_nombre": "Brayan",
+        "segundo_nombre": "Fidernando",
+        "primer_apellido": "Aux",
+        "segundo_apellido": "Malte",
+        "telefono": null,
+        "correo": "bfaux@misena.edu.co"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": {
+        "usuario": {
+            "perfil": "Administrador",
+            "id_perfil": 2,
+            "id_centro_formacion": 1,
+            "centro_formacion": "Centro de Teleinformática y Producción Industrial",
+            "identificacion": "1085950246",
+            "primer_nombre": "Brayan",
+            "segundo_nombre": "Fidernando",
+            "primer_apellido": "Aux",
+            "segundo_apellido": "Malte",
+            "telefono": null,
+            "correo": "bfaux@misena.edu.co"
+        },
+        "centros_formacion": [
+            {
+                "id_centro_formacion": 1,
+                "centro_formacion": "Centro de Teleinformática y Producción Industrial"
+            },
+            {
+                "id_centro_formacion": 2,
+                "centro_formacion": "Limpia Lope"
+            },
+            {
+                "id_centro_formacion": 3,
+                "centro_formacion": "Automatización Industrial"
+            }
+        ],
+        "perfiles": [
+            {
+                "id_perfil": 1,
+                "perfil": "Dirección General"
+            },
+            {
+                "id_perfil": 2,
+                "perfil": "Administrador"
+            },
+            {
+                "id_perfil": 3,
+                "perfil": "Líder Bienestar"
+            },
+            {
+                "id_perfil": 17,
+                "perfil": "perfil Test"
+            },
+            {
+                "id_perfil": 18,
+                "perfil": "modifi cuatro"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": {
+        "id_perfil": 2,
+        "perfil": "Administrador"
+    }
+}

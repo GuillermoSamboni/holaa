@@ -1,0 +1,37 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": [
+        {
+            "id_usuario": 29,
+            "identificacion": "1061745380",
+            "primer_nombre": "Carlos",
+            "segundo_nombre": "Andres",
+            "primer_apellido": "Chapid",
+            "segundo_apellido": "Inga",
+            "perfil": "Administrador"
+        },
+        {
+            "id_usuario": 28,
+            "identificacion": "1085950246",
+            "primer_nombre": "Brayan",
+            "segundo_nombre": "Fidernando",
+            "primer_apellido": "Aux",
+            "segundo_apellido": "Malte",
+            "perfil": "Administrador"
+        },
+        {
+            "id_usuario": 30,
+            "identificacion": "1061749421",
+            "primer_nombre": "Jefferson",
+            "segundo_nombre": "Andrés",
+            "primer_apellido": "Muñoz",
+            "segundo_apellido": "Luligo",
+            "perfil": "Administrador"
+        }
+    ]
+}

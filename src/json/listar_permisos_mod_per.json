@@ -1,0 +1,38 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": [
+        {
+            "id_item_modulo": 1,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 2,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 3,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 4,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 5,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 6,
+            "id_perfil": 2
+        },
+        {
+            "id_item_modulo": 9,
+            "id_perfil": 2
+        }
+    ]
+}

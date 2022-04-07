@@ -1,0 +1,95 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "Bienvenido",
+    "delay": null,
+    "code": "SUC-001",
+    "results": {
+        "usuario": {
+            "id_usuario": 29,
+            "primer_nombre": "Carlos",
+            "segundo_nombre": "Andres",
+            "primer_apellido": "Chapid",
+            "segundo_apellido": "Inga",
+            "id_perfil": 2,
+            "perfil": "Administrador"
+        },
+        "modulos": [
+            {
+                "id_item_modulo": 1,
+                "item_modulo": "Bienestar al Aprendiz",
+                "componente": null,
+                "icono": "fas fa-users",
+                "hijos": [
+                    {
+                        "id_item_modulo": 2,
+                        "item_modulo": "Convocatorias",
+                        "componente": null,
+                        "icono": "fas fa-users",
+                        "hijos": [
+                            {
+                                "id_item_modulo": 3,
+                                "item_modulo": "Registrar Convocatoria",
+                                "componente": "RegistrarConvocatoria",
+                                "icono": "far fa-dot-circle text-white",
+                                "hijos": []
+                            },
+                            {
+                                "id_item_modulo": 4,
+                                "item_modulo": "Gestionar Convocatorias",
+                                "componente": "GestionarConvocatoria",
+                                "icono": "far fa-dot-circle text-white",
+                                "hijos": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_item_modulo": 5,
+                "item_modulo": "Usuarios",
+                "componente": null,
+                "icono": "fas fa-users",
+                "hijos": [
+                    {
+                        "id_item_modulo": 6,
+                        "item_modulo": "Gestionar Usuarios",
+                        "componente": "GestionarUsuario",
+                        "icono": "fas fa-users",
+                        "hijos": []
+                    }
+                ]
+            },
+            {
+                "id_item_modulo": 7,
+                "item_modulo": "Perfiles",
+                "componente": null,
+                "icono": "fas fa-users",
+                "hijos": [
+                    {
+                        "id_item_modulo": 9,
+                        "item_modulo": "Gestionar Perfiles",
+                        "componente": "GestionarPerfil",
+                        "icono": "far fa-dot-circle text-white",
+                        "hijos": []
+                    },
+                    {
+                        "id_item_modulo": 8,
+                        "item_modulo": "Registrar Perfil",
+                        "componente": "RegistrarPerfil",
+                        "icono": "far fa-dot-circle text-white",
+                        "hijos": []
+                    },
+                    {
+                        "id_item_modulo": 10,
+                        "item_modulo": "Gestionar Permisos",
+                        "componente": "GestionarPermiso",
+                        "icono": "far fa-dot-circle text-white",
+                        "hijos": []
+                    }
+                ]
+            }
+        ]
+    }
+}

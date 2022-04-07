@@ -1,0 +1,128 @@
+/* pruba animacion contenido */
+.almacenar {
+  border-radius: 10%;
+  height: 24px;
+  width: 24px;
+  background-color: #ddd;
+}
+.row_loader {
+  display: block;
+  overflow: hidden;
+}
+.row_loader:first-of-type {
+  margin-bottom: 48px;
+}
+.row_loader_search {
+  height: 35px;
+  width: 220px;
+  background: #ddd;
+  margin-bottom: 16px;
+}
+.row_loader_title {
+  height: 30px;
+  width: 10%;
+  background: #ddd;
+  margin-bottom: 16px;
+}
+.row_loader_inner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.row_loader_inner > *:not(:last-child) {
+  margin-right: 16px;
+}
+
+.card {
+  margin-top: 2px;
+  background: white;
+  border-radius: 4px;
+  height: auto;
+  border: none;
+}
+
+.card.search {
+  width: 300px;
+}
+
+.placeholder {
+  border-radius: 2px;
+  background-color: #898989;
+  background-size: 900px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: shine;
+  animation-name: shine;
+  background-image: linear-gradient(235deg, #bbb 0, #ccc 10%, #bbb 60%);
+}
+
+.title {
+  height: 20px;
+  width: 80%;
+}
+
+// .criteria {
+//   height: 12px;
+//   margin-top: 8px;
+//   width: 180px;
+//   border: 2px solid rgb(247, 6, 6);
+// }
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: 25% 0;
+  }
+  50% {
+    background-position: -75% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 25% 0;
+  }
+  50% {
+    background-position: -75% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+// @media (max-width: 600px) {
+//     div.btn-toolbar.btn-responsive-table {
+//         width: 204px;
+//     }
+// }
+
+ul {
+  padding-left: 0px !important;
+}
+
+// MEDIA JQUERYS 1027PX
+@media (max-width: 1366px) {
+  .title {
+    height: 20px;
+    width: 100%;    
+  }
+  .card.search {
+    width: 100px;    
+  }
+}
+@media (max-width: 508px) {
+  .title {
+    height: 20px;
+    width: 100%;    
+  }
+  .card.search {
+    width: 40px;    
+  }
+}

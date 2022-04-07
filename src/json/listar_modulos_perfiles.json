@@ -1,0 +1,88 @@
+{
+    "status": "success",
+    "action": "next",
+    "show": true,
+    "message": "",
+    "delay": null,
+    "code": "SUC-001",
+    "results": {
+        "modulos": [
+            {
+                "id_item_modulo": 1,
+                "item_modulo": "Bienestar al Aprendiz",
+                "hijos": [
+                    {
+                        "id_item_modulo": 2,
+                        "item_modulo": "Convocatorias",
+                        "hijos": [
+                            {
+                                "id_item_modulo": 3,
+                                "item_modulo": "Registrar Convocatoria",
+                                "hijos": []
+                            },
+                            {
+                                "id_item_modulo": 4,
+                                "item_modulo": "Gestionar Convocatorias",
+                                "hijos": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_item_modulo": 5,
+                "item_modulo": "Usuarios",
+                "hijos": [
+                    {
+                        "id_item_modulo": 6,
+                        "item_modulo": "Gestionar Usuarios",
+                        "hijos": []
+                    }
+                ]
+            },
+            {
+                "id_item_modulo": 7,
+                "item_modulo": "Perfiles",
+                "hijos": [
+                    {
+                        "id_item_modulo": 8,
+                        "item_modulo": "Registrar Perfil",
+                        "hijos": []
+                    },
+                    {
+                        "id_item_modulo": 9,
+                        "item_modulo": "Gestionar Perfiles",
+                        "hijos": []
+                    },
+                    {
+                        "id_item_modulo": 10,
+                        "item_modulo": "Gestionar Permisos",
+                        "hijos": []
+                    }
+                ]
+            }
+        ],
+        "perfiles": [
+            {
+                "id_perfil": 1,
+                "perfil": "Dirección General"
+            },
+            {
+                "id_perfil": 2,
+                "perfil": "Administrador"
+            },
+            {
+                "id_perfil": 3,
+                "perfil": "Líder Bienestar"
+            },
+            {
+                "id_perfil": 17,
+                "perfil": "perfil Test"
+            },
+            {
+                "id_perfil": 18,
+                "perfil": "modifi cuatro"
+            }
+        ]
+    }
+}
